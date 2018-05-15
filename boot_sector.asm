@@ -21,7 +21,7 @@ print_string_done:
 popa
 ret
 
-hello_world db "This is my first OS Mother fuckers", 0
+hello_world db "This is my first OS", 0
 
 times 510-($-$$) db 0
 dw 0xaa55
